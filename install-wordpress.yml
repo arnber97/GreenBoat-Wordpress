@@ -1,4 +1,4 @@
-- hosts: "{{ host | default('wordpress')}}"
+- hosts: all
   become: true
   vars:
     wp_version: 5.7.1
